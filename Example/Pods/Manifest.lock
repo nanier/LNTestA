@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LNTestA (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LNTestA (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LNTestA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LNTestA: 0cf73a7f293c714958d5d34edcf3a72046aac6c5
+
+PODFILE CHECKSUM: 2d64f46a38e861f0c0f1766175582d896570dc49
+
+COCOAPODS: 1.6.0.beta.1

@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		0B1D7CDCBDB817CDFD21C85B /* Pods-LNTestA_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNTestA_Example.release.xcconfig"; path = "Target Support Files/Pods-LNTestA_Example/Pods-LNTestA_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1D63B626B3A30FE4EEB9B141 /* Pods-LNTestA_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNTestA_Tests.release.xcconfig"; path = "Target Support Files/Pods-LNTestA_Tests/Pods-LNTestA_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4EF4AA49609EC1DD67AF5294 /* LNTestA.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LNTestA.podspec; path = ../LNTestA.podspec; sourceTree = "<group>"; };
+		4EF4AA49609EC1DD67AF5294 /* LNTestA.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LNTestA.podspec; path = ../LNTestA.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* LNTestA_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNTestA_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		71FC511A53629282B392A7B1 /* Pods-LNTestA_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNTestA_Example.debug.xcconfig"; path = "Target Support Files/Pods-LNTestA_Example/Pods-LNTestA_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D51735E3B2EF8473EF395C2 /* Pods-LNTestA_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNTestA_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LNTestA_Tests/Pods-LNTestA_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8FA9AB2791939DDAD0D59511 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8FA9AB2791939DDAD0D59511 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9B8F55EAF78AF296172E2548 /* Pods_LNTestA_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LNTestA_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C827D78E9E3D98982A4CE8A0 /* Pods_LNTestA_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LNTestA_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4EEAA9096D818A104D0EB8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F4EEAA9096D818A104D0EB8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				8D51735E3B2EF8473EF395C2 /* Pods-LNTestA_Tests.debug.xcconfig */,
 				1D63B626B3A30FE4EEB9B141 /* Pods-LNTestA_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = nanier;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = VVFH25X7Z7;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -521,6 +524,7 @@
 			baseConfigurationReference = 71FC511A53629282B392A7B1 /* Pods-LNTestA_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VVFH25X7Z7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LNTestA/LNTestA-Prefix.pch";
 				INFOPLIST_FILE = "LNTestA/LNTestA-Info.plist";
@@ -537,6 +541,7 @@
 			baseConfigurationReference = 0B1D7CDCBDB817CDFD21C85B /* Pods-LNTestA_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VVFH25X7Z7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LNTestA/LNTestA-Prefix.pch";
 				INFOPLIST_FILE = "LNTestA/LNTestA-Info.plist";

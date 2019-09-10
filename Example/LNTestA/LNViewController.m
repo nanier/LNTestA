@@ -7,6 +7,8 @@
 //
 
 #import "LNViewController.h"
+#import "LNTestACommon.h"
+
 
 @interface LNViewController ()
 
